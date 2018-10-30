@@ -7,6 +7,7 @@ run:
 clean:
 	rm *.o
 	rm a.out
-
+	rm file.txt
+	
 randfile.o: randfile.c
 	gcc -c randfile.c
